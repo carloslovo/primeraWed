@@ -1,0 +1,204 @@
+<DOCTYPE html>
+
+    <html lang="es" >
+
+        <head>
+
+        <meta charset="UTF-8">
+
+        <title> Contacto</title>
+        <link rel="shortcut icon" href="img/logo.png ">
+        <link rel="stylesheet"href="reset.css">
+        <link rel="stylesheet"href="style.css">
+
+        </head>
+
+        <body>
+            <header class="encabezado">
+
+                        <div class="cajanav">
+
+                        <img src="img/logo.png" alt="fondoazul">
+
+                            <nav>
+
+                                <ul>
+                                <li><a href="index.html"> Inicio</a></li>
+                                <li><a href="carreras.html"> Carreras</a></li>
+                                <li><a href="Contacto.html">Contacto</a></li>
+                                </ul>
+                            </nav>
+                            
+                    </div>
+
+            </header>
+
+            <main>
+
+                <form>
+
+                    <fieldset>
+
+
+                    <label for="nombreApellido"> Nombre y Apellido</label>
+                    <input class="inpu-datos-generales" type="text" id="nombreApellido">
+
+                    <label for="correoElectronico">Correo Electronico</label>
+                    <input class="inpu-datos-generales"  type="text" id="correoElectronico">
+
+                    <label for="numeroTelefono"> Numero Telefono</label>
+                    <input class="inpu-datos-generales"  type="numero" id="numeroTelefono">
+
+                    <label for="mensaje">mensaje</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder=" Tu mensaje aqui..."
+                    class="inpu-datos-generales" id="mensaje"></textarea>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend> Como le gustaria que lo contactemos</legend>
+
+                    <label for="radio-email"><input name="forma-Contacto" id="radio-email" value="Email" type="radio"> Email</label>
+                    <input class="inpu-datos-generales" id="nombreApellido" type="text"
+                    placeholder="ingrese sus nombres y apellidos">
+
+                   <input class="inpu-datos-generales" type="email"
+                   id="correoElectronico" placeholder="ejemplo@dominio.com">
+
+                    <label for="radio-Telefono"><input name="forma-Contacto"  type="radio" value="telefo" id="radio-Telefono"> Numero Telefono</label>
+                    <input class="inpu-datos-generales" id="telefo" type="tel" placeholder="+xx 0000 0000">
+                    
+
+                    <label for="radio-whatsapp"><input name="forma-Contacto" id="radio-whatsapp" value="whatsapp" checked type="radio"> whatsapp</label>
+
+                </fieldset>
+
+                <fieldset>
+
+
+                    <legend> ¿Qué turno le interesa?</legend>
+
+                    <select> id="turno" 
+                        <option value="Matutino">Matunino</option>
+                        <option value="Vespertino">Vespertino</option>
+                        <option value="Nocturno">Nocturno</option>
+                        <option Value="Sabatino">Sabatino</option>
+                        <option value="Dominial">Dominical</option>
+
+
+                    </select>
+
+                    </fieldset>
+                    <script>
+                    let option;
+                    function seleccion(){
+                        opcion=document.getElementById("turno"), value;
+                        console.log(option);
+                    }
+                    
+
+
+                    </script>
+                  
+                   
+
+                    <label class="checkbox"></label><input checked type="checkbox"> Le gustaria recibir novedades de carreras y cursus que se ofertan</label>
+
+
+
+                    
+                    <input class="enviar" type="submit" value="Enviar Formulario">
+
+                    
+
+                    
+
+
+
+
+
+
+                
+
+
+                </form>
+
+                <table>
+                    <thead>
+
+                       
+
+                        <tr>
+                            <th>Turno</th>
+                            <th>Horario</th>
+                        
+                        </tr>
+                    </thead>
+                <tbody>
+                      <tr>
+                        <td>Matunino</td>
+                        <td>7:am-12:30pm</td>
+                       
+                      </tr>
+                      
+                       <tr>
+                        <td>Vespertino</td>
+                        <td>12:30pm- 6:00pm</td>
+                       
+                      </tr>
+                      
+                       <tr>
+                        <td>Nocturno</td>
+                        <td>6:00pm-9:00pm</td>
+                       
+                      </tr>
+                       <tr>
+                        <td>Sabatino</td>
+                        <td>7:30am-4:15pm</td>
+                       
+                      </tr>
+                      
+                       <tr>
+                        <td>Dominical</td>
+                        <td>7:30am-4:15pm</td>
+                       
+                      </tr>
+                      
+                       
+                    </tbody>
+                    <tfoot>
+
+
+                    </tfoot>    
+                    <tr>
+                       
+                    <td  colspan="2"
+                    class="TextPieTable">Horarios CT Che Guevara Somoto</td>
+                    </tr>
+                    </table>
+                    
+                      
+                    
+
+
+
+
+
+
+            </main>
+
+
+            <footer>
+                <img src="img/LOGOBLANCO.png" alt="">
+                <p class="Copyrigh"> &copy; Copyrigh INATEC Che Guevara Somoto, 2024</p>
+
+            </footer>
+            
+
+
+
+        </body>
+
+    </html>
+  

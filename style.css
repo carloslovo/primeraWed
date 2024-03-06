@@ -1,0 +1,264 @@
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.encabezado{
+    background-color: #a8abc5;
+    padding-top: 20px;
+}
+.cajanav{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+nav{
+    position: absolute;
+    top: 88px;
+    right: 0;
+  
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+    color: rgb(230, 152, 35);
+    text-decoration: underline;
+}
+.carreras{
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px;     
+}
+.carreras li{
+    
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    background-color: rgb(75, 138, 219);
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+}
+.carreras li:hover{
+border-color: #c78c19;
+}
+.carreras li:active{
+    border: color green;
+
+
+
+}
+.carreras h2{
+font-size: 30;
+font-weight: bold;
+padding-bottom: 40px;
+}
+
+.carreras li:hover h2{
+    font-size: 33px;
+}
+
+
+.textoDiscripcion{
+    font-size: 18px;
+    padding-top: 15;
+}
+.textoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.imagenCarreras{
+    width: 90%;
+}
+.Ubicacion{
+    text-align: center;
+}
+.tituloUbicacion{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+footer{
+    background: url(img/fondoazul.png);
+    background: rgb(34, 0, 114);
+    text-align: center;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.copyrighf{
+    color: #ffffff;
+    padding-top: 15px;
+    position: absolute;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.input-datos-generale{
+    display: block;
+    margin-bottom: 20px;
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-right: 25;
+    padding-left: 25;
+    width: 50%;
+}
+form{
+    
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+.enviar{
+    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    transition:1s background;
+    transition: 1s transform;
+}
+.enviar:hover{
+    background-color: aqua;
+    cursor: pointer;
+    transform: scale(1.2) rotate(70deg);
+   
+}
+form select{
+    padding-bottom: 10px; 
+}
+table{
+    margin-bottom: 40px;
+}
+thead{
+    background-color:#c78c19;
+    color: white;
+    font-weight: bold; 
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+th,tr,td{
+    padding: 10px;
+}
+table,tr,td{
+    border: 2px solid black;
+}
+td{
+    padding: 10px 0px 10px 10px;
+}
+tr:nth-child(even){
+    background-color: #cccccc;
+}
+.TextPieTable{
+    border:none;
+    text-align: center;
+    font-weight: bold;
+}
+/* estilo para nuestra pagina inder*/
+.imagenPrincipal{
+    width: 100%;
+}
+
+.principal{
+    background-color: #cccccc;
+    padding: 20px;
+}
+.parrafo{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#mision{
+    text-align: center;
+
+}
+#mison{
+    font-size: 20px;
+}
+#mision em{
+font-style: italic;
+}
+
+em strong{
+    color: red;
+} 
+
+.ofertas{
+background-color: white;
+padding: 20px; 
+
+}
+
+.tituloCarreras{
+    text-align: center;
+    font-weight: bold ;
+    font-size:18;
+    margin-bottom:15;
+}
+.tituloSecundario{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.listaCarreras{
+    display:inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: 15%;
+}
+.items{
+   font-style: italic;
+   margin: bottom 10px; ;
+}
+.imagenCarreras{
+    width: 50;
+
+}
+.contenedorMapa{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tituloMapa{
+    font-size: 18;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
